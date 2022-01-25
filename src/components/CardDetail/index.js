@@ -102,7 +102,7 @@ export default ({
             </Typography>
           </div>
 
-          {mapHistory.length > 0 ? (
+          {mapHistory.length > 2 ? (
             mapHistory.map((info) => {
               return (
                 <div className={classes.containerRow}>
@@ -125,7 +125,7 @@ export default ({
               Informacion de Vacunas
             </Typography>
           </div>
-          {mapVaccines.length > 0 ? (
+          {mapVaccines.length > 2 ? (
             <div>
               <div className={classes.containerRow}>
                 <Typography variant="body1" color="white">

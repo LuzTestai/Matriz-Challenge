@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# credential map
+/src/credential.js
+
 # production
 /build
 

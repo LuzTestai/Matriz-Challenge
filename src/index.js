@@ -20,7 +20,7 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
       <Routes>
-        <Route path="/pepe" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/detail/:country" element={<CardDetail />} />
       </Routes>
     </BrowserRouter>
